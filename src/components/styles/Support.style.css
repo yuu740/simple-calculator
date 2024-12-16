@@ -1,0 +1,202 @@
+body {
+  background-color: #000;
+}
+
+.support-container {
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 100;
+  margin-right: auto;
+}
+
+h1 {
+  margin-left: 18%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+  font-style: bold;
+}
+
+hr {
+  width: 63%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 17.8%;
+}
+
+.left-container {
+  margin: 10px;
+}
+
+.right-container {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group div {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.optional {
+  color: #aca9a9;
+}
+
+.form-group label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.label-name {
+  margin-left: 2px;
+  color: #aca9a9;
+  font-size: 16px;
+}
+
+.red {
+  color: red;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 20px;
+  color: #ccc;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 2px #a76806;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 340px;
+  width: 400px;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields div {
+  flex: 1;
+}
+
+.topic-box {
+  border: dotted 2px #ccc;
+  padding: 20px;
+}
+
+.topic-box label {
+  color: #ccc;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+  width: 7px;
+  accent-color: #ffcc00;
+}
+
+.child-topic {
+  display: flex;
+}
+
+.child-topic label {
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #ff9f0a;
+  color: #fff8ec;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 30%;
+  font-size: 20px;
+  margin-left: 70%;
+}
+
+button[type="submit"]:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.response-system {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.response-system .thank-you {
+  font-weight: bold;
+  color: #db8b10;
+  font-size: 30px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.response-system button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ticket-number {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.ticket-number p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.ticket-number .ticket-label {
+  margin-right: 5px;
+  color: #636363;
+  font-weight: 500;
+}
